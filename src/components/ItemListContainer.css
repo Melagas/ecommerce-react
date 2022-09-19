@@ -1,0 +1,13 @@
+.greeting {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: #8f2d56;
+    margin: 2rem;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}

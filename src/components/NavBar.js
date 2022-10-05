@@ -12,10 +12,8 @@ const NavBar = () => {
           </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link as={Link} to='/'>Home</Nav.Link>
-            <Nav.Link as={Link} to='/category/nosotros'>Nosotros</Nav.Link>
-            <Nav.Link as={Link} to='/category/contacto'>Contacto</Nav.Link>
-            <Nav.Link as={Link} to='/category/esmaltenacional'>Esmalte Nacional</Nav.Link>
-            <Nav.Link  as={Link} to='/category/esmalteimportado'>Esmalte Importado</Nav.Link>
+            <Nav.Link as={Link} to='/category/nacional'>Esmalte Nacional</Nav.Link>
+            <Nav.Link  as={Link} to='/category/importado'>Esmalte Importado</Nav.Link>
           </Nav>
           <CartWidget/>
         </Container>

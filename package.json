@@ -21,6 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://melagas.github.io/ecommerce-react/",
   "eslintConfig": {
     "extends": [
       "react-app",

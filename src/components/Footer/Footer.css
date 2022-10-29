@@ -1,0 +1,13 @@
+.footerStyle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #8f2d56;
+    padding: 1rem;
+}
+
+.footerText{
+    margin: 0%;
+    color:antiquewhite;
+}

@@ -1,0 +1,30 @@
+.cartContainer svg {
+    color: #dc3545;
+    cursor: pointer;
+  }
+
+.titleCart {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.subtitleCart{
+    display: flex;
+    justify-content: center;
+    color: #8f2d56;
+}
+
+.bottonBack{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.buttonCart {
+    margin: .5rem;
+}

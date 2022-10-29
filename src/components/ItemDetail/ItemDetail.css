@@ -1,0 +1,16 @@
+.itemDetailContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .titleDetail{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+  }
+
+  .buttonIrCart {
+    margin: .5rem;
+  }

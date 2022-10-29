@@ -1,0 +1,34 @@
+.img {
+    height: 310px;
+    width: auto;
+}
+
+.botonCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+div.itemList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#buttonColor{
+    background-color:  #f8afc9;
+    border-color:antiquewhite;
+}
+
+#buttonColor:hover {
+    background-color: #4c4c47;
+    transition-duration: .4s; }
+  

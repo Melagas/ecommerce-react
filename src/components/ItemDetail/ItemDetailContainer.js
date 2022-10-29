@@ -19,7 +19,7 @@ const ItemDetailContainer = () => {
     console.log(product);
     return (
     <Container>
-        <h1>Detalle del Producto</h1>
+        <h1 className="titleDetail">Detalle del producto</h1>
         {product && <ItemDetail product={product} />}
     </Container>
     );

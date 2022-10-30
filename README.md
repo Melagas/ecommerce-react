@@ -13,7 +13,7 @@ Este proyecto fue creado con:
 [https://melagas.github.io/ecommerce-react/] (https://melagas.github.io/ecommerce-react/)
 
 ## Demo
-![](https://firebasestorage.googleapis.com/v0/b/ceramica-mela.appspot.com/o/navegation.gif?alt=media&token=a6f32ae0-af64-4745-95d1-59f23aba91cc)
+![](https://firebasestorage.googleapis.com/v0/b/ceramica-mela.appspot.com/o/navegation.gif?alt=media&token=fe94d659-022a-4094-9a70-0d40f6e63d7f)
 
 ## Estructura de directorios
 

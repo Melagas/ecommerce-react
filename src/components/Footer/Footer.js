@@ -2,7 +2,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <footer className='footerStyle'>
+    <footer className='footerStyle'>
         <div className='footerDiv'>
             <p className='footerText'>
                 AVR Cerámica

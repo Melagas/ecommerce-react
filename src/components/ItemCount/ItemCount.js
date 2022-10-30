@@ -25,16 +25,16 @@ const ItemCount = ({ initial, stock, onAdd }) => {
           <Button variant="secondary" disabled={count <= 1} onClick={handleSubtract}>
             -
           </Button>
-          <h5>{count}</h5>
+           <h5>{count}</h5>
           <Button variant="secondary" disabled={count >= stock} onClick={handleAdd}>
             +
           </Button>
         </div>
-      <div>
-      <Button variant="dark" disabled={stock <= 0} onClick={handleClick}>
-        Agregar al  Carrito
-      </Button>
-      </div>
+        <div>
+          <Button variant="dark" disabled={stock <= 0} onClick={handleClick}>
+            Agregar al  Carrito
+          </Button>
+        </div>
     </div>
   )
 }

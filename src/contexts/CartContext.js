@@ -28,11 +28,6 @@ export const CartProvider = ({ children }) => {
       cartDraft[itemIndex] = itemDraft;
       // cart[itemIndex] = itemDraft; PROHIBIDO, ya que modifica el estado de react
       setCart(cartDraft);
-
-      // VERSION CORTA, pero peligrosa, tocamos el estado react, mutacion
-      // const item = cart.find((item) => item.id === parseInt(id));
-      // item.quantity = item.quantity + quantity;
-      // setCart([...cart]);
     }
   }
 

@@ -45,18 +45,18 @@ const  Cart= () => {
 
     return ( 
         <Container className="cartContainer">
-        <h1 className="titleCart">Carrito</h1>
-        {showTable && (
+         <h1 className="titleCart">Carrito</h1>
+         {showTable && (
             <>
-        <Table striped bordered hover variant="dark">
-      <thead>
-        <tr>
-          <th>Título</th>
-          <th>Precio</th>
-          <th>Cantidad</th>
-          <th>Acción</th>
-        </tr>
-      </thead>
+          <Table striped bordered hover variant="dark">
+           <thead>
+             <tr>
+              <th>Título</th>
+              <th>Precio</th>
+              <th>Cantidad</th>
+              <th>Acción</th>
+             </tr>
+           </thead>
       <tbody>
       {cart.map((item)=>(
         <tr key={item.id}>
@@ -68,13 +68,13 @@ const  Cart= () => {
       ))}
       </tbody>
     </Table>
-    <h3> Total: ${total}</h3>
-    <Button className="buttonCart" variant="success" onClick={handleOpen}>Finalizar compra</Button>
+       <h3> Total: ${total}</h3>
+       <Button className="buttonCart" variant="success" onClick={handleOpen}>Finalizar compra</Button>
     </>
         )}
     {!showTable && (
-     <>
-       <h3 className="subtitleCart">Carrito de compra vacio</h3>
+      <>
+         <h3 className="subtitleCart">Carrito de compra vacio</h3>
        <Link to='/' className="bottonBack">
          <Button variant="dark">Ver productos</Button>
        </Link>

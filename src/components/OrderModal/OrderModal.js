@@ -25,23 +25,23 @@ const OrderModal = ({showModal, onClose, onBuy, orderId}) => {
         <Modal.Footer>
           {!orderId && (
             <>
-             <Button variant="danger" onClick={onClose}>
-             Cancelar
-             </Button>
-             <Button variant="success" onClick={onBuy}>
-             Comprar
-             </Button> 
+              <Button variant="danger" onClick={onClose}>
+                Cancelar
+              </Button>
+              <Button variant="success" onClick={onBuy}>
+               Comprar
+              </Button> 
             </>
           )}
           {orderId && (
             <div className="footerOrderSuccess">
-             <Alert key='success' variant='success'>
+               <Alert key='success' variant='success'>
               {orderId}
-             </Alert>
+               </Alert>
              <Link to= '/'>
-               <Button variant="success">
-               Seguir comprando
-               </Button>
+                <Button variant="success">
+                 Seguir comprando
+                </Button>
              </Link>
             </div>
           )}

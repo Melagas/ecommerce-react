@@ -15,11 +15,11 @@ const Item = ({product}) => {
             <Card.Text>
                 {product.description}
             </Card.Text>
-        <Link to={`/item/${product.id}`}>
-            <Button id='buttonColor'>
+            <Link to={`/item/${product.id}`}>
+             <Button id='buttonColor'>
                 Ver detalle
-            </Button>
-        </Link>
+             </Button>
+            </Link>
         </Card.Body>
     </Card> );
 }
